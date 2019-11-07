@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset>
+    <rule ref="PSR2"/>
+    <rule ref="./vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/ruleset.xml"/>
+
+    <rule ref="ObjectCalisthenics.CodeAnalysis.OneObjectOperatorPerLine">
+        <exclude-pattern>src/Infrastructure/Repository</exclude-pattern>
+        <exclude-pattern>src/Application/Controller</exclude-pattern>
+    </rule>
+
+    <rule ref="ObjectCalisthenics.NamingConventions.ElementNameMinimalLength">
+        <properties>
+            <property name="allowedShortNames" type="array" value="i,id,to,up,e,em"/>
+        </properties>
+    </rule>
+
+    <rule ref="ObjectCalisthenics.Files.FunctionLength">
+        <properties>
+            <property name="maxLength" value="25"/>
+        </properties>
+    </rule>
+</ruleset>

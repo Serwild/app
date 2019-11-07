@@ -1,0 +1,9 @@
+framework:
+    assets:
+        json_manifest_path: '%kernel.project_dir%/public/build/manifest.json'
+
+        packages:
+            build:
+                base_path: /build
+            image:
+                base_path: /images
