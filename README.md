@@ -1,5 +1,5 @@
 # symfony-app template
-[![CircleCI](https://circleci.com/gh/Ferror/symfony-app.svg?style=svg)](https://circleci.com/gh/Ferror/symfony-app)
+[![codecov](https://codecov.io/gh/Serwild/app/branch/master/graph/badge.svg)](https://codecov.io/gh/Serwild/app)
 [![License: MIT](https://img.shields.io/apm/l/vim-mode.svg)](https://opensource.org/licenses/MIT)
 
 # What is it?
