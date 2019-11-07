@@ -1,4 +1,5 @@
 # symfony-app template
+[![Build Status](https://travis-ci.org/Serwild/app.svg?branch=master)](https://travis-ci.org/Serwild/app)
 [![codecov](https://codecov.io/gh/Serwild/app/branch/master/graph/badge.svg)](https://codecov.io/gh/Serwild/app)
 [![License: MIT](https://img.shields.io/apm/l/vim-mode.svg)](https://opensource.org/licenses/MIT)
 
