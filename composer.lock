@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3acabcf93c7be2918f58c4371cb15904",
+    "content-hash": "9356a0d58af6448e4a19023148dc7486",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2349,6 +2349,44 @@
                 "controllers"
             ],
             "time": "2019-04-10T06:00:20+00:00"
+        },
+        {
+            "name": "serwild/core",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Serwild/core.git",
+                "reference": "fcbaaf01de8fa1dbdb2693ad537eaa56662f8db2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Serwild/core/zipball/fcbaaf01de8fa1dbdb2693ad537eaa56662f8db2",
+                "reference": "fcbaaf01de8fa1dbdb2693ad537eaa56662f8db2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "php": "^7.1.2"
+            },
+            "require-dev": {
+                "object-calisthenics/phpcs-calisthenics-rules": "^3.4",
+                "phpmd/phpmd": "^2.7",
+                "phpstan/phpstan": "^0.11.2",
+                "phpunit/phpunit": "^6.5",
+                "squizlabs/php_codesniffer": "3.4.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Serwild\\Bundle\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-11-28T18:52:40+00:00"
         },
         {
             "name": "symfony/asset",

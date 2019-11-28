@@ -8,6 +8,7 @@
         "guzzlehttp/guzzle": "^6.3",
         "ramsey/uuid": "^3.8",
         "sensio/framework-extra-bundle": "^5.1",
+        "serwild/core": "^1.0",
         "symfony/asset": "4.2.*",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
