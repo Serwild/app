@@ -13,3 +13,4 @@
 /public/build/
 npm-debug.log
 ###< symfony/webpack-encore-bundle ###
+/.phpunit.result.cache
