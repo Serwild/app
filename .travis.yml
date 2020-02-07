@@ -8,7 +8,7 @@ install:
 script:
     - composer phpcs
     - composer phpstan
-    - ./vendor/bin/phpunit --coverage-clover=coverage.xml
+    - ./vendor/bin/simple-phpunit --coverage-clover=coverage.xml
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
