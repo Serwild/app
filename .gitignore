@@ -8,9 +8,13 @@
 ###> squizlabs/php_codesniffer ###
 /.phpcs-cache
 ###< squizlabs/php_codesniffer ###
+
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
 npm-debug.log
 ###< symfony/webpack-encore-bundle ###
+
+###> phpunit/phpunit ###
 /.phpunit.result.cache
+###< phpunit/phpunit ###
